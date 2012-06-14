@@ -1,0 +1,6 @@
+1. talk about stash -> workspace
+  
+   git stash save
+   vim hello.c
+   git ci
+   git stash apply
