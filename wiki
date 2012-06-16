@@ -41,6 +41,8 @@ A: Some people think it has perl-regex and it's stronger than gnu-regex,
 Q: tell me sth that grep can do while ack can not?
 A: that is not even a question, since ack has lots of defaults to optimize source search, so it will become very awkward to use when you are doing sth else. 
 
+Q: can I use grep for source searching?
+A: yes, you can, and people do. but it takes quite a bit customization and scripting.
 # grep 
 
 Authored by Ken, 
