@@ -17,8 +17,6 @@ http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files
    in vim use `:ack -Q "*h"`, the '""' is a must
 
 
-don't try to give a intro to regex, casue it is too big a topic. Just mention Ack and grep uses different kind of regex
-same applies to grep.
 
 Q: how check only .c files, how to check everything but .c files?
 A:
@@ -49,3 +47,9 @@ A: yes, you can, and people do. but it takes quite a bit customization and
    scripting. You have to know not only grep, but also find and other bash
    scripting basic skills.
    and also grep is usually pre-installed on the system, which ack is not.
+ 
+
+DONT:
+don't try to give a intro to regex, casue it is too big a topic. Just mention Ack and grep uses different kind of regex
+same applies to grep.
+lAck and AckAdd not so sexy
