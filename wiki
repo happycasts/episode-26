@@ -9,9 +9,11 @@ http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files
    :cn 
    :cp
 
-   peter:~/xxx/ppp$ ack -Q .h
+   peter:~/xxx/ppp$ ack -Q "*h"
    h.c
-   1:.helloc
+   1:*helloc
+
+   in vim use `:ack -Q "*h"`, the '""' is a must
 
 
 don't try to give a intro to regex, casue it is too big a topic. Just mention Ack and grep uses different kind of regex
