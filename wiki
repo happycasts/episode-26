@@ -9,6 +9,38 @@ http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files
    :cn 
    :cp
 
+   peter:~/xxx/ppp$ ack -Q .h
+   h.c
+   1:.helloc
+
+
+don't try to give a intro to regex, casue it is too big a topic. Just mention Ack and grep uses different kind of regex
+same applies to grep.
+
+Q: how check only .c files, how to check everything but .c files?
+A:
+
+Q: I can not believe it, ack by default ignores file without a decent extention, and what else?
+A: Yes, casue "ack defaults to only searching source code" , http://betterthangrep.com/why-ack/
+   see also "Why does ack ignore unknown files by default?" man ack-grep
+
+Q: then how to add other type of files into search scope?
+A: man ack       
+
+       If you want ack to search files that it doesn't recognize, use the "-a" switch.
+       If you want ack to search every file, even ones that it always ignores like coredumps and backup files, use the "-u" switch.
+
+Q: Ack vs grep?
+A: Ack is a grep focusing on "source code search", since it sets its focus, so many things can be done easier than grep.
+   "Obsoleted most of my 'grep is crippled' wrapper scripts, too." 
+
+Q: So ack is just a grep in limited mode? there is no strong points of ack?
+A: Some people think it has perl-regex and it's stronger than gnu-regex,
+   http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files/comment-page-1#comment-9263
+
+Q: tell me sth that grep can do while ack can not?
+A: that is not even a question, since ack has lots of defaults to optimize source search, so it will become very awkward to use when you are doing sth else. 
+
 # grep 
 
 Authored by Ken, 
