@@ -8,6 +8,7 @@ http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files
 
    :cn 
    :cp
+   :Ack --nojs sth
 
    peter:~/xxx/ppp$ ack -Q "*h"
    h.c
@@ -26,7 +27,7 @@ Q: I can not believe it, ack by default ignores file without a decent extention,
 A: Yes, casue "ack defaults to only searching source code" , http://betterthangrep.com/why-ack/
    see also "Why does ack ignore unknown files by default?" man ack-grep
 
-Q: then how to add other type of files into search scope?
+Q: then how to add other type of files into search scope(--exclude --include)?
 A: man ack       
 
        If you want ack to search files that it doesn't recognize, use the "-a" switch.
@@ -48,7 +49,3 @@ A: yes, you can, and people do. but it takes quite a bit customization and
    scripting. You have to know not only grep, but also find and other bash
    scripting basic skills.
    and also grep is usually pre-installed on the system, which ack is not.
-
-# grep 
-
-Authored by Ken, 
