@@ -1,6 +1,14 @@
-1. talk about stash -> workspace
-  
-   git stash save
-   vim hello.c
-   git ci
-   git stash apply
+http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files
+#ack
+
+            _   /|
+            \'o.O'
+            =(___)=
+               U
+
+   :cn 
+   :cp
+
+# grep 
+
+Authored by Ken, 
