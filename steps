@@ -1,24 +1,11 @@
-1. When ack, why not grep?
 
-    Q: can I use grep for source searching?
-    A: yes, you can, and people do. but it takes quite a bit customization and
-       scripting. You have to know not only grep, but also find and other bash
-       scripting basic skills.
-       and also grep is usually pre-installed on the system, which ack is not.
-    Q: Ack vs grep?
-    A: Ack is a grep focusing on "source code search", since it sets its focus, so many things can be done easier than grep.
-       "Obsoleted most of my 'grep is crippled' wrapper scripts, too." 
-       e.g
-         http://betterthangrep.com/why-ack/
+1. ack -Q
+   peter:~/xxx/ppp$ ack -Q "*h"
+   h.c
+   1:*helloc
 
-    Q: So ack is just a grep in limited mode? there is no strong points of ack?
-    A: Some people think it has perl-regex and it's stronger than gnu-regex,
-       http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files/comment-page-1#comment-9263
+   in vim use `:ack -Q "*h"`, the '""' is a must
 
-    Q: tell me sth that grep can do while ack can not?
-    A: that is not even a question, since ack has lots of defaults to optimize
-       source search, so it will become very awkward to use when you are doing
-       sth else. 
-
-
-1.
+1. tips 
+   :cn 
+   :cp

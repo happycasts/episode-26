@@ -1,0 +1,21 @@
+__Resources:__
+
+- [Ack](http://betterthangrep.com/)
+
+```terminal
+sudo aptitude install ack-grep
+sudo ln -s `which ack-grep` /bin/ack
+ack --help-types|less
+```
+
+```terminal
+ack hello
+ack -a hello
+ack --js hello
+ack --nojs hello
+```
+
+```vim
+:Ack -a hello
+:Ack -Q "*h"
+```
